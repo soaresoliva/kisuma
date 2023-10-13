@@ -1,0 +1,9 @@
+RewriteEngine On
+
+ErrorDocument 404 index.php
+
+RewriteRule ^products$   index.php?pagina=site/products
+RewriteRule ^leadership$ index.php?pagina=site/leadership
+RewriteRule ^contact$    index.php?pagina=site/contact
+
+RewriteRule ^admin/$ index.php?pagina=admin/login

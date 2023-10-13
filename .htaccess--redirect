@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ https://kisuma.com/ [R=301,L]

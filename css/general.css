@@ -1,0 +1,62 @@
+
+.pagination > div > div
+{
+    border:1px solid #F5F5F5;
+    padding: 2px;
+    float:left;
+    margin-left:5px;
+}
+
+.pagination a
+{
+    padding: 4px;
+}
+
+.pagination > div > div.active
+{
+    border:1px solid #DCDCDC;
+}
+
+.pagination 
+{
+    width:100%;
+    float:right;
+}
+
+.pagination > div
+{   
+    float:right;
+}
+
+/* Central de controle */
+
+.form-signin 
+{
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.form-signin img
+{
+    padding: 20px;
+}
+
+#bodyCentraldeControle
+{
+    background: #FFF url('../images/admin/bg_login.jpg') center top no-repeat;
+    padding-top:40px
+}
+
+.form-group input[type=text],
+.form-group textarea {
+    width: 100%;
+}

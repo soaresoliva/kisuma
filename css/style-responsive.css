@@ -1,0 +1,138 @@
+@media (max-width: 860px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 310px;
+    }
+    
+    header ul li.topo {
+        width: 100%;
+    }
+    
+    header ul li.logo {
+        float: left;
+        width: 100%;
+    }
+    
+    header ul li.logo a img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    header ul li.topo .contato {
+        float: none;
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    header ul li.topo nav {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    nav ul li {
+        width: 25%;
+    }
+    
+    section#principal {
+        width: 100%;
+        height: auto;
+    }
+    
+    .itens-home {
+        width: 100%;
+    }
+    
+    .contato .mapa-fundo {
+        background-image: url(../images/contato/mapa-mobile.png);
+    }
+    
+    .contato .mapa-fundo ul li{
+        display: none;
+    }
+    
+    .itens-home li:first-child {
+        margin-top: -20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .produtos-lista,
+    .equipe-lista {
+        text-align: center;
+    }
+
+    .equipe-lista li,
+    .produtos-lista li {
+        margin-bottom: 20px;
+    }
+    
+    .contato .mapa {
+        width: 100%;
+        float: none;
+    }
+    
+    .contato .mapa ul {
+        width: 275px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .contato .mapa img {
+        margin: 0 auto;
+        float: none;
+        display: block;
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .contato .enderecos {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-top: 70px;
+    }
+    
+    header ul li.topo .contato li {
+        color: #fff;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        width: 50%;
+    }
+    
+    header {
+        height: 380px;
+    }
+    
+    .itens-home li:nth-child(2) {
+        margin-right: auto;
+        float: left;
+        width: 200px;
+    }
+    
+    section#principal.home {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    nav ul li {
+        width: 100%;
+    }
+    
+    header {
+        height: 520px;
+    }
+}
